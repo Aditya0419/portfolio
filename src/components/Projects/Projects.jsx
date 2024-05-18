@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import './Projects.css';
 // import './project';
+import wave from './images/wave.png'
+import skill3d from './images/skill3d.png'
+import wanderlust from './images/wanderlust.png'
 
 function animate() {
     const CONTAINER = document.querySelector('.container')
@@ -75,7 +78,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"images/wave.png"} alt="" width={"400rem"} />
+                            <img src={wave} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Html, Css, JS</span>
@@ -87,7 +90,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"images/skill3d.png"} alt="" width={"400rem"} />
+                            <img src={skill3d} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Html, Css, JS</span>
@@ -99,7 +102,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"images/wanderlust.png"} alt="" width={"400rem"} />
+                            <img src={wanderlust} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Node.js , Express.js , EJS , MongoDB</span>

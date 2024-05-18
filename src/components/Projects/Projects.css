@@ -226,4 +226,11 @@ article h2 {
     width: 17rem;
   }
 
+  article:is(:hover, :focus-visible) {
+    z-index: 0;
+  }
+
+  .container{
+    touch-action: auto;
+  }
 }
