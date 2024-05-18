@@ -75,7 +75,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"./src/components/Projects/images/wave.png"} alt="" width={"400rem"} />
+                            <img src={"images/wave.png"} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Html, Css, JS</span>
@@ -87,7 +87,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"./src/components/Projects/images/skill3d.png"} alt="" width={"400rem"} />
+                            <img src={"images/skill3d.png"} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Html, Css, JS</span>
@@ -99,7 +99,7 @@ export default function Projects() {
                     <article>
                         <div className="glows"></div>
                         <span className="header">
-                            <img src={"./src/components/Projects/images/wanderlust.png"} alt="" width={"400rem"} />
+                            <img src={"images/wanderlust.png"} alt="" width={"400rem"} />
                         </span>
                         <span className="badge">
                             <span>Node.js , Express.js , EJS , MongoDB</span>
