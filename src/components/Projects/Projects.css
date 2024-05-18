@@ -209,6 +209,7 @@ article h2 {
     padding: 0.8rem 2rem 1.5rem 0.7rem;
     min-width: 200px;
     max-width: 250px;
+    min-height: 17rem;
   }
 
   .header {
@@ -226,11 +227,8 @@ article h2 {
     width: 17rem;
   }
 
-  article:is(:hover, :focus-visible) {
-    z-index: 0;
-  }
-
   .container{
     touch-action: auto;
+    padding-bottom: 5px;
   }
 }
