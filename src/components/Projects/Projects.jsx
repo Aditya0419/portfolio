@@ -108,7 +108,7 @@ export default function Projects() {
                             <span>Node.js , Express.js , EJS , MongoDB</span>
                         </span>
                         <h2>WanderLust: Airbnb clone</h2>
-                        <a href="https://aditya0419.github.io/Wave-Clothing-Brand-Website-/main.html" target='_blank'>Visit</a>
+                        <a href="https://github.com/Aditya0419/Travel-Accommodation-Platform-" target='_blank'>Visit</a>
                     </article>
                 </div>
             </div>
