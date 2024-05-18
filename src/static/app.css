@@ -1,0 +1,8 @@
+.start{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start div{
+    width:50vw;
+}

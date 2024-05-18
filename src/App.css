@@ -1,0 +1,65 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    /* line-height: 1.5; */
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #000000;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.responsiveAbout{
+    display: none;
+}
+
+@media(max-width:600px) {
+
+    .nav-list,
+    .Resume-Nav {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block
+    }
+
+    .main-intro {
+        flex-wrap: wrap;
+    }
+
+    .main-intro>div {
+        width: 100vw;
+    }
+
+    .intro-heading {
+        padding: 40px 0 0 40px;
+        height: 50vh;
+    }
+    .display-card{
+        height:60vh;
+    }
+    .intro-name{
+        font-size: 4rem;
+        padding-bottom: 1rem;
+    }
+    .intro-para{
+        font-size: 0.9rem;
+        width: 22rem;
+    }
+    .notResponsive{
+        display: none;
+    }
+    .responsiveAbout{
+        display: block;
+    }
+}

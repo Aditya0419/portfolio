@@ -1,0 +1,42 @@
+.lastSec{
+    padding: 120px 7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lastsec-desc{
+    width: 40%;
+    padding: 0 17rem 0 0;
+}
+
+.lastsec-head{
+    font-family: futura;
+    font-size: 4rem;
+    /* padding-bottom: 1rem; */
+}
+
+.lastsec-para{
+    padding: 0.5rem 0 0 0.5rem;
+    font-family: "DM Sans",sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff80;
+}
+
+@media(max-width:600px){
+
+    .lastSec{
+        padding: 50px 2rem;
+    }
+    .lastsec-head{
+        font-size: 2.5rem;
+    }
+    .lastsec-desc{
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+
+    .lastsec-para{
+        padding: 0.5rem 0 0 0.5rem;
+        font-size: 1rem;
+    }
+}
